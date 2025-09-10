@@ -45,11 +45,11 @@ function Create() {
                 </div>
                 <!-- Sign Up Button -->
                 <div class="mt-4">
-                    <LoginButton>
-                        <RouterLink to="/" @click="Create">
+                    <RouterLink to="/" @click="Create">
+                        <LoginButton>
                             Create account
-                        </RouterLink>
-                    </LoginButton>
+                        </LoginButton>
+                    </RouterLink>
                 </div>
                 <!--  -->
                 <div class="text-center mt-6 text-gray-500 text-sm">
